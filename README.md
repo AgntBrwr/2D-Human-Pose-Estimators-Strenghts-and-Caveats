@@ -10,6 +10,8 @@ To perform this deeper analysis the COCO validation set corrected the occlusion 
 - Person resolution (per person)
 - Wrong annotations
 
+Note: the example images contain the original labels.
+
 Occlusion
 The occlusion labels are corrected, because many occlusion labels are inaccurate:
 ![image](https://user-images.githubusercontent.com/63635825/174550627-655c1f68-94ff-4082-8ecc-f2267b36bfba.png)
