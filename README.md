@@ -24,17 +24,20 @@ There are different ways keypoints can be occluded. We separated these ways by t
 **Self occlusion**
 
 The COCO dataset only counts other person occlusion and environment occlusion as occlusion, but self occlusion can also lead to worse performance. Hence, self occlusion is also added.
-![image](https://user-images.githubusercontent.com/63635825/174558387-f1e69a39-16ba-4eb9-be17-dba44edafa8c.png)
+![image](https://user-images.githubusercontent.com/63635825/174561185-12ed0ce6-51e4-4aa7-99c1-a286bcf2954f.png)
+
 
 **Other person occlusion**
 
 Other person occlusion are keypoints occluded by other people.
-![image](https://user-images.githubusercontent.com/63635825/174558311-67e49fef-1aeb-4139-9412-f1af515f12cf.png)
+![image](https://user-images.githubusercontent.com/63635825/174561216-06fe3630-ec6a-4169-acd5-a41e6497f833.png)
+
 
 **Environment occlusion**
 
 This type of occlusion is any type of occlusion which is not self- or other person-occlusion. Hence, any object, helmet, blanket, etc.
-![image](https://user-images.githubusercontent.com/63635825/174558261-14e30654-bb8b-44c2-9dd1-7d0f996ad867.png)
+![image](https://user-images.githubusercontent.com/63635825/174561247-0d6bd9e7-4671-4105-bd4e-c93f30c36c6c.png)
+
 
 **Truncation by the image border**
 
