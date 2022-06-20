@@ -8,6 +8,7 @@ To perform this deeper analysis the COCO validation set corrected the occlusion 
   - Environment occlusion
 - Truncation by the image border (per person)
 - Person resolution (per person)
+- Wrong annotations
 
 Occlusion
 The occlusion labels are corrected, because many occlusion labels are inaccurate:
@@ -15,3 +16,11 @@ The occlusion labels are corrected, because many occlusion labels are inaccurate
 
 Occlusion types
 There are different ways keypoints can be occluded. We separated these ways by three categories: self occlusion, other person occlusion and environment occlusion which are respectively shown below
+
+Truncation by the image border examples:
+![image](https://user-images.githubusercontent.com/63635825/174556198-6838f68e-d00c-4dc4-8432-adb1065470bb.png)
+
+Person resolution examples:
+![image](https://user-images.githubusercontent.com/63635825/174557078-ce219797-2ff4-4cae-85c2-903dc7925292.png)
+
+Wrong annotations:
