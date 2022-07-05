@@ -51,4 +51,8 @@ The COCO validation set contains a lot of wrong annotations. From the validation
 ![image](https://user-images.githubusercontent.com/63635825/174558124-f4b864c1-a65f-4be0-8b29-6445c80e2085.png)
 
 ## Results
-
+Results gathered for:
+- ResNet-152
+- HRNet-W48
+- DEKR-W48 (with multi-scale test)
+- HRNet-W48 + DarkPose
