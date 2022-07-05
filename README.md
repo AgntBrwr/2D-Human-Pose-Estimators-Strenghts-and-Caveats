@@ -23,7 +23,7 @@ The occlusion labels are corrected, because many occlusion labels are inaccurate
 **Occlusion types**
 There are different ways keypoints can be occluded. We separated these ways by three categories: self occlusion, other person occlusion and environment occlusion which are respectively shown below. The COCO 
 
-**Self occlusion**
+**Self occlusion** <br />
 The COCO dataset only counts other person occlusion and environment occlusion as occlusion, but self occlusion can also lead to worse performance. Hence, self occlusion is also added.
 ![image](https://user-images.githubusercontent.com/63635825/174561185-12ed0ce6-51e4-4aa7-99c1-a286bcf2954f.png)
 
