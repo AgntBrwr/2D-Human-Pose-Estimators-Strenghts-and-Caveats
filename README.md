@@ -56,3 +56,13 @@ Results gathered for:
 - HRNet-W48
 - DEKR-W48 (with multi-scale test)
 - HRNet-W48 + DarkPose
+
+### General results on the validation set where the wrong annotations are removed
+| Method       | Input size   |       AP |     AP50 |     AP75 |       AR |     AR50 |     AR75 |
+|:-------------|:-------------|---------:|---------:|---------:|---------:|---------:|---------:|
+| ResNet-152   | 384x288      | 0.751505 | 0.905256 | 0.820931 | 0.805172 | 0.945236 | 0.867574 |
+| HRNet-W48    | 384x288      | 0.771137 | 0.914165 | 0.836741 | 0.820128 | 0.949079 | 0.879424 |
+| DEKR-W48 ms  | 640x640      | 0.731873 | 0.891634 | 0.796248 | 0.786357 | 0.934347 | 0.842914 |
+| DarkPose-W48 | 384x288      | 0.777486 | 0.913642 | 0.842689 | 0.825348 | 0.949079 | 0.883907 |
+
+
