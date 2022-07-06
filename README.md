@@ -57,7 +57,7 @@ Results gathered for:
 - DEKR-W48 (with multi-scale test)
 - HRNet-W48 + DarkPose
 
- options(scipen=1, digits=3)
+> options(scipen=1, digits=3)
 
 ### General results 
 on the validation set where the wrong annotations are removed
