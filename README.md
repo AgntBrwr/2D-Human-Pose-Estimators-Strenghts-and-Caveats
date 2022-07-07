@@ -97,6 +97,7 @@ on the validation set where the wrong annotations are removed
 
 ### Truncation results
 presence or absence of any truncation where k is the amount of keypoints truncated by the image border
+
 | Method       | Input size   | Variable   |       AP |     AP50 |     AP75 |       AR |     AR50 |     AR75 |
 |:-------------|:-------------|:-----------|---------:|---------:|---------:|---------:|---------:|---------:|
 | ResNet-152   | 384x288      | k=0        | 0.778968 | 0.922627 | 0.849675 | 0.8235   | 0.958264 | 0.889969 |
@@ -109,6 +110,7 @@ presence or absence of any truncation where k is the amount of keypoints truncat
 | DarkPose-W48 | 384x288      | 0<k        | 0.665044 | 0.807553 | 0.71771  | 0.790483 | 0.926036 | 0.84073  |
 
 per truncation bin
+
 | Method       | Input size   | Variable   |        AP |     AP50 |      AP75 |       AR |     AR50 |     AR75 |
 |:-------------|:-------------|:-----------|----------:|---------:|----------:|---------:|---------:|---------:|
 | ResNet-152   | 384x288      | 0<k<5      | 0.726115  | 0.845908 | 0.785603  | 0.848819 | 0.961755 | 0.905512 |
@@ -130,6 +132,7 @@ per truncation bin
 
 ### Image resolution
 Image resolution per person categorized as Low (pixels < 32^2), Medium (32^2 <= pixels < 96^2) and High (96^2 <= pixels)
+
 | Method       | Input size   | Variable   |       AP |     AP50 |     AP75 |       AR |     AR50 |     AR75 |
 |:-------------|:-------------|:-----------|---------:|---------:|---------:|---------:|---------:|---------:|
 | ResNet-152   | 384x288      | Low        | 0.215078 | 0.337291 | 0.231345 | 0.598812 | 0.826603 | 0.653207 |
