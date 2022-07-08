@@ -16,8 +16,8 @@ Also, an analysis is executed of the influence of training models on the train s
 
 ## Setup
 - Download person_keypoints_val2017.json and 2017 Val images from https://cocodataset.org/#download. And put these in the coco/data folder (unzipped version of 2017 Val images).
-- Get the models from https://drive.google.com/drive/u/0/folders/1J0S0F9Oto_GJWsSeZPrezgrwUPDZovy_, or download the models directly from the source https://github.com/leoxiaobin/deep-high-resolution-net.pytorch, https://github.com/HRNet/DEKR, https://github.com/ilovepose/DarkPose and put these in the models folder
-- Filtered train set annotations and the models can also be downloaded from https://drive.google.com/drive/u/0/folders/1J0S0F9Oto_GJWsSeZPrezgrwUPDZovy_.
+- Get the models from https://drive.google.com/drive/folders/1J0S0F9Oto_GJWsSeZPrezgrwUPDZovy_?usp=sharing, or download the models directly from the source https://github.com/leoxiaobin/deep-high-resolution-net.pytorch, https://github.com/HRNet/DEKR, https://github.com/ilovepose/DarkPose and put these in the models folder
+- Filtered train set annotations and the models can also be downloaded from https://drive.google.com/drive/folders/1J0S0F9Oto_GJWsSeZPrezgrwUPDZovy_?usp=sharing.
 
 ## About the labels
 Note: the example images contain the original labels.
