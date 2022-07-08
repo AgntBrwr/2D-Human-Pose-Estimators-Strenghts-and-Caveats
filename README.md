@@ -14,7 +14,7 @@ To perform this deeper analysis the COCO validation set corrected the occlusion 
 
 ## Setup
 - Download person_keypoints_val2017.json and 2017 Val images from https://cocodataset.org/#download. And put these in the coco/data folder (unzipped version of 2017 Val images).
-- Get best models from https://github.com/leoxiaobin/deep-high-resolution-net.pytorch, https://github.com/HRNet/DEKR, https://github.com/ilovepose/DarkPose and put these in the models folder
+- Get the models from https://drive.google.com/drive/u/0/folders/1J0S0F9Oto_GJWsSeZPrezgrwUPDZovy_, or download the models directly from the source https://github.com/leoxiaobin/deep-high-resolution-net.pytorch, https://github.com/HRNet/DEKR, https://github.com/ilovepose/DarkPose and put these in the models folder
 
 ## About the labels
 Note: the example images contain the original labels.
