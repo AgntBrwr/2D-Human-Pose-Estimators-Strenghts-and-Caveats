@@ -137,7 +137,7 @@ per truncation bin
 | DarkPose-W48 | 384x288      | 13<=k      | 0.095 |  0.155 |  0.094 | 0.624 |  0.845 |  0.661 |
 
 ### Image resolution
-Image resolution per person categorized as Low (pixels < 32^2), Medium (32^2 <= pixels < 96^2) and High (96^2 <= pixels)
+Image resolution per person categorized as: Low (pixels < 32^2), Medium (32^2 <= pixels < 96^2) and High (96^2 <= pixels)
 
 | Method       | Input size   | Variable   |    AP |   AP50 |   AP75 |    AR |   AR50 |   AR75 |
 |:-------------|:-------------|:-----------|------:|-------:|-------:|------:|-------:|-------:|
